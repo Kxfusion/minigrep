@@ -1,0 +1,11 @@
+[package]
+name = "dont-use-this-grep"
+version = "0.1.0"
+edition = "2021"
+description = "grep but tiny and bad"
+license = "MIT OR BSD-3-Clause-No-Military-License"
+
+[profile.dev]
+opt-level = 1
+
+[dependencies]
